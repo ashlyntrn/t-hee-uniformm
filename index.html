@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>T-HEE Uniform – Đồng phục ấn tượng, Đội bạn thêm tự tin</title>
+  <meta name="description" content="T-HEE Uniform chuyên may đồng phục theo yêu cầu: áo thun, polo, sơ mi. Thiết kế miễn phí, giao toàn quốc, chất lượng bảo hành.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700;800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body { padding-top: 68px; }
+
+    .hero-content h1,
+    .hero-content .hero-subtitle,
+    .hero-content .hero-cta,
+    .hero-content .trust-strip {
+      opacity: 0;
+      animation: fadeInUp 0.7s ease forwards;
+    }
+    .hero-content .badge       { opacity: 0; animation: fadeInUp 0.7s ease 0.05s forwards; }
+    .hero-content h1           { animation-delay: 0.15s; }
+    .hero-content .hero-subtitle { animation-delay: 0.3s; }
+    .hero-content .hero-cta    { animation-delay: 0.45s; }
+    .hero-content .trust-strip { animation-delay: 0.6s; }
+
+    /* Pain point icon block */
+    .pain-icon {
+      font-size: 2.5rem;
+      margin-bottom: 16px;
+      display: block;
+    }
+
+    /* Social proof section */
+    .social-proof-section {
+      background: white;
+    }
+
+    /* FAQ section bg */
+    .faq-section {
+      background: var(--color-bg);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ─── NAVBAR ─────────────────────────────────────────── -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="index.html">
+        <img src="Profile_Pic.jpg" alt="T-HEE Uniform" class="nav-logo">
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Trang chủ</a></li>
+        <li><a href="products.html">Sản phẩm</a></li>
+        <li><a href="enquiry.html">Tư vấn &amp; Báo giá</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Mở menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ─── HERO ───────────────────────────────────────────── -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="container">
+      <div class="hero-content">
+        <span class="badge badge-white">Đặt từ 5 áo · Giao toàn quốc</span>
+        <h1>Đồng phục ấn tượng –<br><span style="color:#7B7BFF">Đội bạn thêm tự tin.</span></h1>
+        <p class="hero-subtitle">Bạn từng đau đầu khi đặt áo đồng phục: lo vải không thoáng, form chật, logo mau bong tróc? Đội T-HEE hiểu bạn — áo vừa vặn, co giãn thoải mái, in thêu sắc nét.</p>
+        <div class="hero-cta">
+          <a href="enquiry.html" class="btn btn-white">Đăng ký tư vấn miễn phí</a>
+          <a href="products.html" class="btn" style="background:transparent; border:2px solid rgba(255,255,255,0.7); color:white;">Xem sản phẩm →</a>
+        </div>
+        <div class="trust-strip">
+          <span class="trust-item">Thiết kế miễn phí</span>
+          <span class="trust-item">Chỉnh sửa không giới hạn</span>
+          <span class="trust-item">Bảo hành chất lượng</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── PAIN POINTS ────────────────────────────────────── -->
+  <section class="section" style="background: white;">
+    <div class="container">
+      <h2 class="section-title" style="text-align:center">Bạn đang <span>gặp khó</span> với đồng phục?</h2>
+      <div class="grid-3">
+
+        <div class="card animate-on-scroll" style="text-align:center">
+          <span class="pain-icon">🌡️</span>
+          <h3>Vải nóng, bí bách</h3>
+          <p>Lo sợ áo mặc cả ngày mà ẩm mồ hôi, thấm hút kém — nhân viên và học sinh khó chịu, mất tập trung suốt buổi.</p>
+        </div>
+
+        <div class="card animate-on-scroll" style="text-align:center">
+          <span class="pain-icon">🎨</span>
+          <h3>Thiết kế chưa ưng ý</h3>
+          <p>Tốn công chọn mẫu mà vẫn sợ in xấu, hoa mắt vì quá nhiều lựa chọn, không biết màu nào phù hợp thương hiệu.</p>
+        </div>
+
+        <div class="card animate-on-scroll" style="text-align:center">
+          <span class="pain-icon">⏰</span>
+          <h3>Lo chất lượng, trễ hàng</h3>
+          <p>Đặt rồi lo không kịp ngày khai giảng hay sự kiện, logo bong tróc sau vài lần giặt, size không đồng đều.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── SOLUTION / BENEFITS ───────────────────────────── -->
+  <section class="section" style="background: var(--color-bg);">
+    <div class="container">
+      <h2 class="section-title" style="text-align:center">Giải pháp <span>T-HEE Uniform</span></h2>
+      <div class="grid-3">
+
+        <div class="card animate-on-scroll" style="text-align:center">
+          <span class="pain-icon">🌬️</span>
+          <h3>Thoáng mát cả ngày</h3>
+          <p>Vải thun cao cấp co giãn 4 chiều, hút ẩm tuyệt vời (~200gsm). Mặc ngoài trời cả ngày vẫn mát mẻ, không cứng vải.</p>
+        </div>
+
+        <div class="card animate-on-scroll" style="text-align:center">
+          <span class="pain-icon">🖨️</span>
+          <h3>Logo sắc nét, bền màu</h3>
+          <p>Công nghệ in kỹ thuật số &amp; thêu vi tính hiện đại. Màu rực rỡ, đường nét chắc chắn — không bong tróc dù giặt máy nhiều lần.</p>
+        </div>
+
+        <div class="card animate-on-scroll" style="text-align:center">
+          <span class="pain-icon">✏️</span>
+          <h3>Thiết kế tận tâm, đúng ý</h3>
+          <p>Đội ngũ thiết kế của T-HEE tư vấn miễn phí, chỉnh sửa không giới hạn cho đến khi bạn thực sự hài lòng với mẫu áo.</p>
+        </div>
+
+      </div>
+      <p style="text-align:center; margin-top:40px">
+        <a href="enquiry.html" class="btn btn-primary">Nhận tư vấn &amp; báo giá ngay →</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ─── SOCIAL PROOF ───────────────────────────────────── -->
+  <section class="section social-proof-section">
+    <div class="container">
+      <h2 class="section-title" style="text-align:center">Khách hàng <span>tin tưởng</span> T-HEE</h2>
+
+      <div class="partners-row">
+        <div class="partner-box">Trường XYZ</div>
+        <div class="partner-box">Công ty ABC</div>
+        <div class="partner-box">CLB 123</div>
+        <div class="partner-box">Tổ chức DEF</div>
+      </div>
+
+      <div class="grid-2">
+        <div class="testimonial animate-on-scroll">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"Áo đồng phục lớp tụi mình đẹp hơn mong đợi: vải mịn, thoáng mát, thiết kế trẻ trung. Cả lớp ai cũng khen!"</p>
+          <p class="testimonial-author">— Linh, sinh viên ĐH XYZ</p>
+        </div>
+        <div class="testimonial animate-on-scroll">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"Đồng phục công ty mới giúp team mình chuyên nghiệp hơn hẳn. Dịch vụ tư vấn tận tâm, giao hàng đúng hẹn."</p>
+          <p class="testimonial-author">— Anh Nam, Trưởng phòng Nhân sự Công ty ABC</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FAQ ────────────────────────────────────────────── -->
+  <section class="section faq-section">
+    <div class="container">
+      <h2 class="section-title" style="text-align:center">Câu hỏi <span>thường gặp</span></h2>
+      <div class="faq-wrap">
+
+        <div class="faq-item">
+          <div class="faq-question">Đơn đặt tối thiểu là bao nhiêu chiếc?</div>
+          <div class="faq-answer">
+            <p>T-HEE nhận đặt từ 5 áo trở lên, áp dụng cho cả học sinh và doanh nghiệp. Tư vấn mẫu miễn phí và chỉnh sửa không giới hạn cho đến khi bạn hài lòng.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">Thời gian giao hàng mất bao lâu?</div>
+          <div class="faq-answer">
+            <p>Sau khi chốt mẫu, chúng tôi hoàn thành trong 7–10 ngày làm việc. Đơn gấp hoặc số lượng lớn có thể nhanh hơn theo thỏa thuận. T-HEE cam kết giao đúng hẹn, toàn quốc.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">Chất liệu vải và kỹ thuật in thêu như thế nào?</div>
+          <div class="faq-answer">
+            <p>Tất cả sản phẩm dùng vải chất lượng cao: 100% cotton, cotton pha, hoặc thun cá sấu co giãn. Logo được in kỹ thuật số hoặc thêu vi tính — sắc nét, bền màu. Lỗi do nhà sản xuất được đổi/hoàn toàn bộ.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CTA BANNER ─────────────────────────────────────── -->
+  <section class="cta-banner">
+    <div class="container">
+      <h2>Đừng để đồng phục của bạn trễ hạn!</h2>
+      <p>Đội T-HEE sẽ liên hệ tư vấn ngay lập tức — miễn phí, không ràng buộc.</p>
+      <a href="enquiry.html" class="btn btn-white">Tư vấn &amp; báo giá ngay →</a>
+      <p class="cta-note">Còn chần chừ gì nữa? Đội bạn xứng đáng được diện áo mới đẹp và chất lượng.</p>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ──────────────────────────────────────────── -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <img src="Profile_Pic.jpg" alt="T-HEE Uniform" class="footer-logo">
+          <p class="footer-tagline">Áo đồng phục sáng tạo – Phong cách của bạn.</p>
+        </div>
+        <div>
+          <p class="footer-heading">Liên kết</p>
+          <ul class="footer-links">
+            <li><a href="index.html">Trang chủ</a></li>
+            <li><a href="products.html">Sản phẩm</a></li>
+            <li><a href="enquiry.html">Tư vấn &amp; Báo giá</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer-heading">Liên hệ</p>
+          <div class="footer-contact">
+            <span>📞 0909 xxx xxx</span>
+            <span>📧 hello@thee-uniform.vn</span>
+            <span>📍 TP. Hồ Chí Minh</span>
+            <span>⏰ T2–T7, 8:00–18:00</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © 2025 T-HEE Uniform. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

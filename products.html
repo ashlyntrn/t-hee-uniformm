@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sản phẩm – T-HEE Uniform</title>
+  <meta name="description" content="Danh mục đồng phục T-HEE: áo polo, áo thun, áo sơ mi, phụ kiện. Thiết kế theo yêu cầu, báo giá minh bạch.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700;800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body { padding-top: 68px; }
+  </style>
+</head>
+<body>
+
+  <!-- ─── NAVBAR ─────────────────────────────────────────── -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="index.html">
+        <img src="Profile_Pic.jpg" alt="T-HEE Uniform" class="nav-logo">
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Trang chủ</a></li>
+        <li><a href="products.html" class="active">Sản phẩm</a></li>
+        <li><a href="enquiry.html">Tư vấn &amp; Báo giá</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Mở menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ─── PAGE HERO ──────────────────────────────────────── -->
+  <section class="page-hero" style="background: linear-gradient(135deg, #0D0D1A 0%, #2B2BDD 100%);">
+    <div class="page-hero-content">
+      <span class="badge badge-white">Đặt từ 5 áo · Báo giá minh bạch</span>
+      <h1>Danh mục sản phẩm</h1>
+      <p>Chọn kiểu áo phù hợp — chúng tôi lo phần còn lại.</p>
+    </div>
+  </section>
+
+  <!-- ─── FILTER + PRODUCTS ─────────────────────────────── -->
+  <section class="section" style="background: var(--color-bg);">
+    <div class="container">
+
+      <!-- Filter bar -->
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">Tất cả</button>
+        <button class="filter-btn" data-filter="polo">Áo Polo</button>
+        <button class="filter-btn" data-filter="thun">Áo Thun</button>
+        <button class="filter-btn" data-filter="somi">Áo Sơ Mi</button>
+        <button class="filter-btn" data-filter="phukien">Phụ kiện</button>
+      </div>
+
+      <!-- Product grid -->
+      <div class="grid-3" id="productGrid">
+
+        <!-- 1. Áo Polo -->
+        <div class="product-card animate-on-scroll" data-category="polo">
+          <div class="product-img" style="background: linear-gradient(135deg, #2B2BDD, #1A1ABB);">🎽</div>
+          <div class="product-body">
+            <h3>Áo Polo (có cổ)</h3>
+            <p>Form ôm vừa vặn, vải thun cá sấu cotton co giãn 4 chiều (~200gsm). Lịch lãm, chuyên nghiệp — lý tưởng cho đồng phục công ty, tổ chức.</p>
+            <div class="product-footer">
+              <span class="price">Từ 150.000₫</span>
+              <a href="enquiry.html" class="btn btn-primary" style="padding:10px 20px; font-size:0.85rem;">Đặt hàng →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Áo thun cổ tròn -->
+        <div class="product-card animate-on-scroll" data-category="thun">
+          <div class="product-img" style="background: linear-gradient(135deg, #2222FF, #5555EE);">👕</div>
+          <div class="product-body">
+            <h3>Áo thun cổ tròn</h3>
+            <p>Kiểu dáng trẻ trung, vải cotton mềm mại, thoáng mát. Phù hợp đồng phục lớp học, hoạt động ngoài trời, team-building.</p>
+            <div class="product-footer">
+              <span class="price">Từ 120.000₫</span>
+              <a href="enquiry.html" class="btn btn-primary" style="padding:10px 20px; font-size:0.85rem;">Đặt hàng →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Áo thun dài tay -->
+        <div class="product-card animate-on-scroll" data-category="thun">
+          <div class="product-img" style="background: linear-gradient(135deg, #0D0D1A, #2B2BDD);">🧥</div>
+          <div class="product-body">
+            <h3>Áo thun dài tay</h3>
+            <p>Vải thun dày hơn (200–220gsm), giữ ấm nhẹ, vẫn thoáng. Dáng truyền thống hoặc oversize — phù hợp thời tiết mát hoặc du lịch.</p>
+            <div class="product-footer">
+              <span class="price">Từ 130.000₫</span>
+              <a href="enquiry.html" class="btn btn-primary" style="padding:10px 20px; font-size:0.85rem;">Đặt hàng →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Áo sơ mi -->
+        <div class="product-card animate-on-scroll" data-category="somi">
+          <div class="product-img" style="background: linear-gradient(135deg, #1C1C2E, #2B2BDD);">👔</div>
+          <div class="product-body">
+            <h3>Áo sơ mi đồng phục</h3>
+            <p>Vải poly-cotton cao cấp, ít nhăn, đàn hồi nhẹ. Kiểu dáng chỉn chu, lịch sự — lý tưởng cho văn phòng, nhà hàng, khách sạn.</p>
+            <div class="product-footer">
+              <span class="price">Từ 200.000₫</span>
+              <a href="enquiry.html" class="btn btn-primary" style="padding:10px 20px; font-size:0.85rem;">Đặt hàng →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. Phụ kiện -->
+        <div class="product-card animate-on-scroll" data-category="phukien">
+          <div class="product-img" style="background: linear-gradient(135deg, #5555EE, #2B2BDD);">🧢</div>
+          <div class="product-body">
+            <h3>Phụ kiện đồng phục</h3>
+            <p>Nón kết vải, khăn quàng, túi tote — đồng bộ màu sắc và logo với bộ đồng phục. Chất liệu chắc chắn, in thêu sắc nét.</p>
+            <div class="product-footer">
+              <span class="price">Giá tùy chọn</span>
+              <a href="enquiry.html" class="btn btn-primary" style="padding:10px 20px; font-size:0.85rem;">Đặt hàng →</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CUSTOMIZATION CTA STRIP ───────────────────────── -->
+  <section style="background: var(--color-primary); padding: 48px 0; text-align: center; color: white;">
+    <div class="container">
+      <p style="font-size:1.1rem; max-width:600px; margin: 0 auto 24px; color: rgba(255,255,255,0.9);">
+        Tất cả sản phẩm có <strong style="color:white;">báo giá minh bạch</strong> — tự chọn vải, kiểu dáng, in/thêu logo theo yêu cầu. Hỗ trợ đơn từ 5 áo.
+      </p>
+      <a href="enquiry.html" class="btn btn-white">Nhận báo giá ngay →</a>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ──────────────────────────────────────────── -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <img src="Profile_Pic.jpg" alt="T-HEE Uniform" class="footer-logo">
+          <p class="footer-tagline">Áo đồng phục sáng tạo – Phong cách của bạn.</p>
+        </div>
+        <div>
+          <p class="footer-heading">Liên kết</p>
+          <ul class="footer-links">
+            <li><a href="index.html">Trang chủ</a></li>
+            <li><a href="products.html">Sản phẩm</a></li>
+            <li><a href="enquiry.html">Tư vấn &amp; Báo giá</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer-heading">Liên hệ</p>
+          <div class="footer-contact">
+            <span>📞 0909 xxx xxx</span>
+            <span>📧 hello@thee-uniform.vn</span>
+            <span>📍 TP. Hồ Chí Minh</span>
+            <span>⏰ T2–T7, 8:00–18:00</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © 2025 T-HEE Uniform. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
