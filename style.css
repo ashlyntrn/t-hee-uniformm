@@ -868,3 +868,35 @@ footer {
     gap: 12px;
   }
 }
+/* ─── HEADER LOGO & TEXT ALIGNMENT ────────────────────────── */
+
+/* 1. Aligns logo image and text horizontally side-by-side */
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;                  /* Controls the spacing between image and text */
+  text-decoration: none;      /* Prevents line underlines on the brand text */
+}
+
+/* 2. Matches the image opacity with your navigation bar style */
+.nav-logo {
+  height: 40px;               /* Adjust this value if you need to resize your logo image */
+  width: auto;
+  opacity: 0.95;              /* Matches the slight transparency behavior of your navbar */
+  transition: opacity 0.2s ease; /* Adds a clean fade transition when hovered */
+}
+
+/* Optional: Bring logo to full opacity when a user hovers over the header link */
+.logo-container:hover .nav-logo {
+  opacity: 1.0;
+}
+
+/* 3. Styles the brand text next to the logo */
+.logo-text {
+  font-family: var(--font-body);
+  font-weight: 700;           /* Clean bold weight to mirror Google Sans hierarchy */
+  font-size: 1.15rem;         /* Balances size perfectly alongside a 40px image height */
+  color: var(--color-dark);   /* Pulls your primary dark color scheme */
+  white-space: nowrap;        /* Keeps the text on one single line */
+  letter-spacing: -0.01em;    /* Slight tracking trim for a cleaner modern display */
+}
