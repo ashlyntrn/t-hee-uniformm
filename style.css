@@ -305,12 +305,8 @@ nav.nav-open .hamburger span:nth-child(3) {
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    45deg,
-    #1417A2 0%,                  /* matches cover's bottom feather */
-    rgba(13, 13, 26, 0.75) 40%,
-    rgba(43, 43, 221, 0.55) 100%
-  );
+  /* 225deg anchors the light blue smoothly at the top right and deep blue at the bottom left */
+  background: linear-gradient(225deg, #2939D0 0%, #1417A2 100%);
 }
 
 .hero-content {
