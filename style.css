@@ -306,7 +306,7 @@ nav.nav-open .hamburger span:nth-child(3) {
   position: absolute;
   inset: 0;
   background: linear-gradient(
-    180deg,
+    45deg,
     #1417A2 0%,                  /* matches cover's bottom feather */
     rgba(13, 13, 26, 0.75) 40%,
     rgba(43, 43, 221, 0.55) 100%
