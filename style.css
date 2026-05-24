@@ -297,7 +297,7 @@ nav.nav-open .hamburger span:nth-child(3) {
 .hero-bg {
   position: absolute;
   inset: 0;
-  background-image: url('Cover_Pic.jpg');
+  background-image: url('Cover20%Pic.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -353,7 +353,7 @@ nav.nav-open .hamburger span:nth-child(3) {
 
 .trust-item::before {
   content: '✓';
-  color: #7B7BFF;
+  color: #adcdff;
   font-weight: 700;
   font-size: 1rem;
 }
