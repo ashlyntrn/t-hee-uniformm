@@ -322,7 +322,7 @@ nav.nav-open .hamburger span:nth-child(3) {
 }
 
 .hero-content p {
-  color: rgba(255, 255, 255, 0.82);
+  color: rgba(255, 255, 255, 0.5);
   font-size: 1.1rem;
   max-width: 520px;
   margin-bottom: 32px;
