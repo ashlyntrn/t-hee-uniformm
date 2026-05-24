@@ -304,12 +304,13 @@ nav.nav-open .hamburger span:nth-child(3) {
 
 .hero-overlay {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(225deg, #2939D0 0%, #1417A2 100%);
-  z-index: 1;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    #1417A2 0%,                  /* matches cover's bottom feather */
+    rgba(13, 13, 26, 0.75) 40%,
+    rgba(43, 43, 221, 0.55) 100%
+  );
 }
 
 .hero-content {
